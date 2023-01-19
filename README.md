@@ -34,3 +34,17 @@ The project was done fully on keggle and the dataset is also uploaded there , re
 - States with more cases / judge => Haryana , Karnataka ,Kerala , Chandigarh , Punjab 
 - States with less cases / judge => Jharkhand  , Jammu and Kashmir  , Manipur , Mizoram and Sikkim
 - It is interesting to note that some states in here like Jharkhand and Jammu and Kashmir are densely populated and are not known to be "clean of crime" per se , but still they have very less cases per judge compared to other states . This makes us think that are all cases getting reported in these states ?? Or are these states really "crime free" contrary to popular opinion ??
+
+## Classifier
+### Predicting a Judge's Position Based on "State Code" , "Tenure" and "Start Date"
+
+- Tenserflow environment with keras layers was used in this project
+- Categorical Data was ordinally encoded and NaN values were filled with mean in data
+- Data was split into training (70%) and Validation (30%)
+- 3 Dense Layers were used with softmax activation in final layer
+- Loss Function -> sparse_categorical_crossentropy , Optimizer -> adam and model was run for 10000 epochs
+- Early stopping callback was also used to stop training when loss reaches its minimum
+
+## How To Run
+
+All the code blocks in the notebook are arranged in correct order of insights and Classifier. Copy the notebook and run the code blocks
