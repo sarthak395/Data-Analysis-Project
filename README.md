@@ -51,6 +51,8 @@ The project was done fully on keggle and the dataset is also uploaded there , re
 - **Early stopping callback** was also used to stop training when loss reaches its minimum
 - Classifier outputs an array of 565 ( Number of Unique judge positions ) with each entry being the probability that the judge with the feeded input data (Start Date , Tenure and State Code ) holds the outputted position
 
+![alt text](Classifier_Accuracy.png)
+![alt_text](Classifier_loss.png)
 ## How To Run
 
 All the code blocks in the notebook are arranged in correct order of insights and Classifier. Copy the notebook and run the code blocks
