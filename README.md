@@ -31,6 +31,7 @@ The project was done fully on keggle and the dataset is also uploaded there , re
  - However , data suggests that judges in T-3 and T-4 states tend to have a longer tenure than judges in T-1 states . Does it indicate "youthness" or "Lack of Experience" in T-1 states ??
 
 ### 3) Combining All Cases Data and Judges Data to see cases per judge in various states
+- I calculate cases/judge = (Total Number of Cases in a state)/(Total Number of Judges in that state)
 - States with more cases / judge => Haryana , Karnataka ,Kerala , Chandigarh , Punjab 
 - States with less cases / judge => Jharkhand  , Jammu and Kashmir  , Manipur , Mizoram and Sikkim
 - It is interesting to note that some states in here like Jharkhand and Jammu and Kashmir are densely populated and are not known to be "clean of crime" per se , but still they have very less cases per judge compared to other states . This makes us think that are all cases getting reported in these states ?? Or are these states really "crime free" contrary to popular opinion ??
@@ -39,11 +40,12 @@ The project was done fully on keggle and the dataset is also uploaded there , re
 ### Predicting a Judge's Position Based on "State Code" , "Tenure" and "Start Date"
 
 - Tenserflow environment with keras layers was used in this project
-- Categorical Data was ordinally encoded and NaN values were filled with mean in data
+- Categorical Data was **ordinally** encoded and NaN values were filled with mean in data
 - Data was split into training (70%) and Validation (30%)
-- 3 Dense Layers were used with softmax activation in final layer
-- Loss Function -> sparse_categorical_crossentropy , Optimizer -> adam and model was run for 10000 epochs
-- Early stopping callback was also used to stop training when loss reaches its minimum
+- 3 Dense Layers were used with **softmax activation** in final layer 
+- `Loss Function -> sparse_categorical_crossentropy , Optimizer -> adam` and model was run for `10000 epochs`
+- **Early stopping callback** was also used to stop training when loss reaches its minimum
+- Classifier outputs an array of 565 ( Number of Unique judge positions ) with each entry being the probability that the judge with the feeded input data (Start Date , Tenure and State Code ) holds the outputted position
 
 ## How To Run
 
