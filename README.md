@@ -37,6 +37,7 @@ The project was done fully on keggle and the dataset is also uploaded there , re
 - States with more cases / judge => Haryana , Karnataka ,Kerala , Chandigarh , Punjab 
 - States with less cases / judge => Jharkhand  , Jammu and Kashmir  , Manipur , Mizoram and Sikkim
 - It is interesting to note that some states in here like Jharkhand and Jammu and Kashmir are densely populated and are not known to be "clean of crime" per se , but still they have very less cases per judge compared to other states . This makes us think that are all cases getting reported in these states ?? Or are these states really "crime free" contrary to popular opinion ??
+![alt text](./cases_per_judge_in_a_state.png)
 
 ## Classifier
 ### Predicting a Judge's Position Based on "State Code" , "Tenure" and "Start Date"
