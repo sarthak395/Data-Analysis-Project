@@ -28,12 +28,12 @@ The project was done fully on keggle and the dataset is also uploaded there , re
     - T-4 states(blue) => Chattisgarh , Gujarat , Haryana , Mizoram
  - Less populated states (T-1) tend to have a larger number of judges than fairly high populated states (T-3)
  - Also , T-1 status being well-known to be "urban" or "educated" have larger male-female discrepancy than say , T-2 or T-4 states
- - However , data suggests that judges in T-3 and T-4 states tend to have a longer tenure than judges in T-1 states . Does it indicate "youthness" or "Lack of Experience" in T-1 states ??
+ - However , data suggests that judges in T-3 and T-4 states tend to have a longer tenure than judges in T-1 states . Does it indicate "youthfulness" or "Lack of Experience" in T-1 states ??
 ![alt text](./tenure_judge_in_a_state.png)
 ![alt text](./num_judge_in_a_state.png)
 
 ### 3) Combining All Cases Data and Judges Data to see cases per judge in various states
-- I calculate cases/judge = (Total Number of Cases in a state)/(Total Number of Judges in that state)
+- I calculated cases/judge = (Total Number of Cases in a state)/(Total Number of Judges in that state)
 - States with more cases / judge => Haryana , Karnataka ,Kerala , Chandigarh , Punjab 
 - States with less cases / judge => Jharkhand  , Jammu and Kashmir  , Manipur , Mizoram and Sikkim
 - It is interesting to note that some states in here like Jharkhand and Jammu and Kashmir are densely populated and are not known to be "clean of crime" per se , but still they have very less cases per judge compared to other states . This makes us think that are all cases getting reported in these states ?? Or are these states really "crime free" contrary to popular opinion ??
