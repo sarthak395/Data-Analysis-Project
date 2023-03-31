@@ -1,4 +1,4 @@
-# PreCog Project Report
+# Project Report
 ### Analysis of ~80 million Indian district court data across states from the [Development Data Lab](https://www.devdatalab.org/).
 
 
